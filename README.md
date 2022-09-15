@@ -1,5 +1,5 @@
 # RbPerezRamos
-## Human Hubris on Mother EARTH ##
+## The Earth Breathes Too. ##
 
 Human activities caused severe destruction of the environment. Its adocacy to advance the wolrd made the Earth suffer, from land, to water, to air. 
 This website will discuss the 4 Major Problems Caused by Human Activities, and how we can help to stop and prevent these from simple steps to worldwide movements.
