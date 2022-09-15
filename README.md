@@ -33,4 +33,6 @@ Contents of this website:
   - How the government can help to avoid illegal mining.
   - How we can help as members of the society and as ones who live in the environment.
 
+The images below are the wireframes for our website.
+
 
