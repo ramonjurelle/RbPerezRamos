@@ -5,7 +5,7 @@ padding: 0px;
 
 * {
   padding: 0;
-  font-family: arial;
+  font-family: Georgia;
   box-sizing: border-box;
 }
 
@@ -16,6 +16,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+body {
+  background-color: #f8f7ff;
 }
 
 .logo {
@@ -54,4 +57,32 @@ button{
 
 button:hover{
   background-color: #e9f5db;
+}
+
+
+section {
+  text-align: center;
+  margin-top: 130px; 
+}
+
+section img {
+  height: 250px;
+  width: 250px;
+  border-style: groove;
+  border-color: #d6ccc2;
+}
+
+section div {
+  height: 350px;
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  background-color: #d8eaab;
+  display: flex;
+  padding: 20px;
 }
