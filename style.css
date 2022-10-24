@@ -4,13 +4,12 @@ padding: 0px;
 }
 
 * {
-  padding: 0;
   box-sizing: border-box;
 }
 
 header {
   background-color: #d8eaab;
-  width:100%;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -47,14 +46,30 @@ body {
   color: #fff;
 }
 
-button{
+.button1{
   background-color: white;
   font-size: 16px;
   border-color: #b7e4c7;
   border-radius: 50px;
   padding: 9px;
   transition: all 0.3s ease 0;
+  position: absolute;
+  top: 170%;
+  right: 55px;
 }
+
+.button2{
+  background-color: white;
+  font-size: 16px;
+  border-color: #b7e4c7;
+  border-radius: 50px;
+  padding: 9px;
+  transition: all 0.3s ease 0;
+  position: absolute;
+  top: 160%;
+  right: 55px;
+}
+
 
 button:hover{
   background-color: #e9f5db;
@@ -92,10 +107,9 @@ footer {
   height: 120px;
 }
 
-div {
-  text-align: center;
+p#title-text{
+  text-align:center;
 }
-
 p#intro {
   text-align: center;
   padding: 0px 50px 0px 50px
@@ -106,34 +120,67 @@ div#content {
   padding: 0px 40px 0px 40px
 }
 
-.p1box{
+.illegalminingp1{
+  height: 300px;
+  width: 500px;
+  border-radius: 30px;
+}
+
+.p1box1strow{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  text-align: center;
-  height: 300%;
-  width: 100%;
+  text-align: justify;
+  padding: 50px;
+}
+
+.defbox1{
+  border-style: solid;
+  border-color: #d8eaab;
+  padding: 10px;
+  margin-left: 20px;
+  width: 40%;
+  border-radius: 30px;
+  text-align: justify;
+  display: inline-block;
 }
 
 .p1box1{
   border-style: solid;
   border-color: #d8eaab;
   padding: 10px;
-  margin: 20px;
+  margin-left: 20px;
+  width: 40%;
+  border-radius: 30px;
+  display:inline-block;
+}
+
+.p1box2ndrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 50px;
 }
 
 .p1box2{
   border-style: solid;
   border-color: #d8eaab;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
+  width: 40%;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 .p1box3{
   border-style: solid;
   border-color: #d8eaab;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
+  width: 40%;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 .p2box{
@@ -146,6 +193,7 @@ div#content {
   border-color: #d8eaab;
   padding: 10px;
   margin: 20px;
+  border-radius: 30px;
 }
 
 .p2box2{
@@ -153,6 +201,7 @@ div#content {
   border-color: #d8eaab;
   padding: 10px;
   margin: 20px;
+  border-radius: 30px;
 }
 
 .p2box3{
@@ -160,4 +209,5 @@ div#content {
   border-color: #d8eaab;
   padding: 10px;
   margin: 20px;
+  border-radius: 30px;
 }
