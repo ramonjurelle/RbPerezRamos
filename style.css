@@ -1,14 +1,9 @@
-body {
-margin: 0px;
-padding: 0px;
-}
-
 * {
   box-sizing: border-box;
 }
 
 header {
-  background-color: #d8eaab;
+  background-color: #adc178;
   width: 100%;
   height: 100px;
   display: flex;
@@ -18,8 +13,13 @@ header {
 }
 
 body {
-  background-color: #f8f7ff;
   font-family: 'Gantari', sans-serif;
+  background-image: url("images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .logo {
@@ -39,44 +39,36 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3 ease 0%;
-  color: #96d289;
+  color: #4F2217;
 }
 
 .nav li a:hover{
   color: #fff;
 }
 
-.button1{
+.button1, .button2, .button3, .button4{
   background-color: white;
   font-size: 16px;
   border-color: #b7e4c7;
   border-radius: 50px;
   padding: 9px;
   transition: all 0.3s ease 0;
-  position: absolute;
-  top: 170%;
-  right: 55px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.button1{
+  top: 155%;
+  left: 82%;
 }
 
 .button2{
-  background-color: white;
-  font-size: 16px;
-  border-color: #b7e4c7;
-  border-radius: 50px;
-  padding: 9px;
-  transition: all 0.3s ease 0;
-  position: absolute;
-  top: 160%;
-  right: 55px;
+  top: 190%;
+  left: 86%;
 }
-
 
 button:hover{
   background-color: #e9f5db;
-}
-
-desc {
-  text-align: center
 }
 
 section {
@@ -100,19 +92,15 @@ section div {
 
 footer {
   text-align: center;
-  justify-content: center;
-  background-color: #d8eaab;
-  display: flex;
-  padding: 40px;
-  height: 120px;
+  justify-content: justify;
+  background-color: #adc178;
+  padding: 10px;
+  font-size: 13px;
+  height:100%;
 }
 
 p#title-text{
   text-align:center;
-}
-p#intro {
-  text-align: center;
-  padding: 0px 50px 0px 50px
 }
 
 div#content {
@@ -122,7 +110,7 @@ div#content {
 
 .illegalminingp1{
   height: 300px;
-  width: 500px;
+  width: 470px;
   border-radius: 30px;
 }
 
@@ -135,6 +123,7 @@ div#content {
 }
 
 .defbox1{
+  background-color: rgba(255, 255, 255, 0.85);
   border-style: solid;
   border-color: #d8eaab;
   padding: 10px;
@@ -146,6 +135,7 @@ div#content {
 }
 
 .p1box1{
+  background-color: rgba(255, 255, 255, 0.85);
   border-style: solid;
   border-color: #d8eaab;
   padding: 10px;
@@ -161,19 +151,11 @@ div#content {
   justify-content: space-around;
   text-align: justify;
   padding: 50px;
+  margin-left: 20px;
 }
 
-.p1box2{
-  border-style: solid;
-  border-color: #d8eaab;
-  padding: 20px;
-  margin: 20px;
-  width: 40%;
-  border-radius: 30px;
-  display: inline-block;
-}
-
-.p1box3{
+.p1box2, .p1box3{
+  background-color: rgba(255, 255, 255, 0.85);
   border-style: solid;
   border-color: #d8eaab;
   padding: 20px;
@@ -188,7 +170,22 @@ div#content {
   width: 100%;
 }
 
-.p2box1{
+.deforestimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 20px;  
+}
+
+.deforestationdef, .deforestationdef2{
+  height: 300px;
+  width: 540px;
+  border-radius: 30px;
+} 
+
+.p2box1, .p2box2, .p2box3{
+  background-color: rgba(255, 255, 255, 0.85);
   border-style: solid;
   border-color: #d8eaab;
   padding: 10px;
@@ -196,7 +193,19 @@ div#content {
   border-radius: 30px;
 }
 
-.p2box2{
+.intro {
+  margin: auto; 
+  text-align: center;
+  width: auto;
+}
+
+.p3box{
+  height: 300%;
+  width: 100%;
+}
+
+.p3box1{
+  background-color: rgba(255, 255, 255, 0.85);
   border-style: solid;
   border-color: #d8eaab;
   padding: 10px;
@@ -204,10 +213,55 @@ div#content {
   border-radius: 30px;
 }
 
-.p2box3{
+.pollutionimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 20px;  
+}  
+
+.airpollution, .waterpollution{
+  height: 300px;
+  width: 540px;
+  border-radius: 30px;
+}
+
+.p3box2ndrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 50px;
+  margin: -50px;
+}
+
+.p3box2, .p3box3{
+  background-color: rgba(255, 255, 255, 0.85);
   border-style: solid;
   border-color: #d8eaab;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
+  width: 45%;
   border-radius: 30px;
+  display: inline-block;
+}
+
+.p3box4{
+  background-color: rgba(255, 255, 255, 0.85);
+  border-style: solid;
+  border-color: #d8eaab;
+  padding: 20px;
+  margin: 20px;
+  width: 45%;
+  border-radius: 30px;
+}
+  .col2, .col4{
+  float: right;
+  margin-top: -108%;
+  margin-right: 25px;
+}
+
+.plant_e, .cat4{
+  margin-top: 45%;
 }
